@@ -50,3 +50,11 @@ optional arguments:
 具体的には，`__init__`メソッドの引数名をそのままオプションとし
 各引数のhelpはdocstringから抜き出しています
 
+
+arginit.createで自動的にsys.argvから引数を受け取り，
+それを用いて指定されたクラスをインスタンス化します
+```python
+if __name__ == '__main__':
+    service = arginit.create(Echo)
+    service.start()
+```
