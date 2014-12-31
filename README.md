@@ -58,3 +58,7 @@ if __name__ == '__main__':
     service = arginit.create(Echo)
     service.start()
 ```
+
+TODO
+----
+* 新年書き初めってことで1時間ちょっとの突貫作業．もうちょっとまともに実装する
